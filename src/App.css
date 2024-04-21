@@ -1,0 +1,50 @@
+body{
+  background-color: black;
+  color: white;
+}
+main{
+  left: 50%;
+  width: 300px;
+  /* 50 from the top, side auto, bottom 0 */
+  margin: 50px auto 0;
+}
+header{
+  font-family: monospace;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 3rem;
+}
+div.board{
+  display: grid;
+  border: 3px solid white;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+div.square{
+    font-family: monospace;
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    font-size: 5rem;
+    text-align: center;
+}
+div.result{
+  text-align: center;
+  font-size: 2rem;
+  padding: 10px;
+}
+div.result.green{
+  background-color: rgb(145, 225, 25);
+  color: black;
+}
+div.result.red{
+  background-color: red;
+  color: white;
+}
+button[type='button']{
+  margin-top: 30px;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+}

@@ -1,3 +1,8 @@
+# Author note:
+I learned this tic tac toe game from "coding with dawid", however, his was buggy and you coul over-write the computer's move.
+
+I had fixed that problem.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
